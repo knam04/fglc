@@ -913,7 +913,7 @@
 
   .events {
     position: relative;
-    width: 1280px;
+    width: 100%;
     height: 2148px;
     background-color: #ffffff;
     overflow: hidden;
@@ -921,7 +921,7 @@
   
   .events .overlap {
     position: absolute;
-    width: 1416px;
+    width: 100%;
     height: 1410px;
     top: 738px;
     left: -51px;
@@ -929,7 +929,7 @@
   
   .events .rectangle {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 88px;
     top: 1322px;
     left: 42px;
@@ -942,7 +942,7 @@
   
   .events .div {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 611px;
     top: 0;
     left: 51px;
@@ -964,7 +964,7 @@
   
   .events .rectangle-2 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 772px;
     top: 552px;
     left: 42px;
@@ -973,7 +973,7 @@
   
   .events .rectangle-3 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 88px;
     top: 477px;
     left: 51px;
@@ -987,7 +987,7 @@
   .events .frame {
     display: flex;
     flex-direction: column;
-    width: 1170px;
+    width: 100%;
     align-items: flex-start;
     gap: 44px;
     position: absolute;
@@ -1076,7 +1076,7 @@
   
   .events .frame-wrapper {
     position: absolute;
-    width: 1416px;
+    width: 100%;
     height: 116px;
     top: 1294px;
     left: 0;
@@ -1085,7 +1085,7 @@
   
   .events .frame-4 {
     display: flex;
-    width: 1186px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -1175,7 +1175,7 @@
   
   .events .overlap-2 {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 752px;
     top: -14px;
     left: -218px;
@@ -1195,7 +1195,7 @@
   
   .events .group-2 {
     position: absolute;
-    width: 1293px;
+    width: 100%;
     height: 752px;
     top: 0;
     left: 209px;
@@ -1244,7 +1244,7 @@
   
   .events .rectangle-7 {
     position: absolute;
-    width: 1294px;
+    width: 100%;
     height: 752px;
     top: 0;
     left: 209px;
@@ -1253,7 +1253,7 @@
   
   .events .pexels-pavel {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 738px;
     top: 14px;
     left: 218px;
@@ -1261,7 +1261,7 @@
   
   .events .mask-group-wrapper {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 495px;
     top: 257px;
     left: 0;
@@ -1269,7 +1269,7 @@
   
   .events .mask-group {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 495px;
     top: 0;
     left: 218px;
@@ -1304,7 +1304,7 @@
   
   .events .overlap-wrapper {
     position: absolute;
-    width: 1257px;
+    width: 100%;
     height: 72px;
     top: 26px;
     left: 232px;
@@ -1312,7 +1312,7 @@
   
   .events .overlap-3 {
     position: relative;
-    width: 1255px;
+    width: 100%;
     height: 72px;
     background-color: #4a557380;
     border-radius: 9px;
@@ -1409,7 +1409,7 @@
   
   .events .text-wrapper-14 {
     position: relative;
-    width: 912px;
+    width: 100%;
     height: 20px;
     margin-right: -840.00px;
     margin-left: -4px;
