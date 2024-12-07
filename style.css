@@ -38,7 +38,7 @@
   
   .home-page .rectangle {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 618px;
     top: 0;
     left: 26px;
@@ -48,7 +48,7 @@
   .home-page .div {
     display: flex;
     flex-direction: column;
-    width: 1349px;
+    width: 100%;
     height: 1089px;
     align-items: center;
     position: absolute;
@@ -70,14 +70,14 @@
   
   .home-page .rectangle-3 {
     position: relative;
-    width: 1349px;
+    width: 100%;
     height: 946px;
     background-color: #646c80;
   }
   
   .home-page .rectangle-4 {
     position: relative;
-    width: 1280px;
+    width: 100%;
     height: 89px;
     margin-bottom: -34.07px;
     background: linear-gradient(
@@ -89,7 +89,7 @@
   
   .home-page .group {
     position: absolute;
-    width: 76px;
+    width: 100%;
     height: 34px;
     top: 1480px;
     left: 1379px;
@@ -111,7 +111,7 @@
   .home-page .frame-2 {
     display: flex;
     flex-direction: column;
-    width: 1416px;
+    width: 100%;
     align-items: center;
     gap: 94px;
     position: absolute;
@@ -629,7 +629,7 @@
   
   .home-page .rectangle-6 {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 673px;
     top: 65px;
     left: 218px;
@@ -688,7 +688,7 @@
   .home-page .frame-22 {
     display: flex;
     flex-direction: column;
-    width: 1255px;
+    width: 100%;
     height: 726px;
     align-items: flex-start;
     gap: 10px;
