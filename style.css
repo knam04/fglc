@@ -2634,7 +2634,7 @@
 
 .our-team {
     position: relative;
-    width: 1280px;
+    width: 100%;
     height: 3233px;
     background-color: #ffffff;
     overflow: hidden;
@@ -2642,7 +2642,7 @@
   
   .our-team .overlap {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 3117px;
     top: 0;
     left: -218px;
@@ -2650,7 +2650,7 @@
   
   .our-team .interior-design-old {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 813px;
     top: 0;
     left: 218px;
@@ -2659,7 +2659,7 @@
   
   .our-team .rectangle {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 793px;
     top: 738px;
     left: 218px;
@@ -2668,7 +2668,7 @@
   
   .our-team .div {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 793px;
     top: 2324px;
     left: 218px;
@@ -2723,7 +2723,7 @@
   
   .our-team .group {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 495px;
     top: 243px;
     left: 0;
@@ -2731,7 +2731,7 @@
   
   .our-team .mask-group {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 495px;
     top: 0;
     left: 218px;
@@ -2766,7 +2766,7 @@
   
   .our-team .rectangle-2 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 775px;
     top: 1562px;
     left: 209px;
@@ -2775,7 +2775,7 @@
   
   .our-team .rectangle-3 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 88px;
     top: 2259px;
     left: 199px;
@@ -2788,7 +2788,7 @@
   
   .our-team .rectangle-4 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 88px;
     top: 1483px;
     left: 209px;
@@ -2809,7 +2809,7 @@
   
   .our-team .frame-wrapper {
     position: absolute;
-    width: 1123px;
+    width: 100%;
     height: 688px;
     top: 826px;
     left: 286px;
@@ -3210,7 +3210,7 @@
   
   .our-team .overlap-wrapper {
     position: absolute;
-    width: 1257px;
+    width: 100%;
     height: 72px;
     top: 12px;
     left: 232px;
@@ -3218,7 +3218,7 @@
   
   .our-team .overlap-2 {
     position: relative;
-    width: 1255px;
+    width: 100%;
     height: 72px;
     background-color: #4a557380;
     border-radius: 9px;
@@ -3344,7 +3344,7 @@
   
   .our-team .group-8 {
     position: absolute;
-    width: 1416px;
+    width: 100%;
     height: 116px;
     top: 3117px;
     left: -62px;
@@ -3353,7 +3353,7 @@
   
   .our-team .frame-17 {
     display: flex;
-    width: 1186px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     position: relative;
@@ -3425,7 +3425,7 @@
 
   .about {
     position: relative;
-    width: 1280px;
+    width: 100%;
     height: 3233px;
     background-color: #ffffff;
     overflow: hidden;
@@ -3433,7 +3433,7 @@
 
 .about .overlap {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 1531px;
     top: 0;
     left: -218px;
@@ -3441,7 +3441,7 @@
 
 .about .pexels-sora {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 912px;
     top: 0;
     left: 218px;
@@ -3450,7 +3450,7 @@
 
 .about .rectangle {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 793px;
     top: 738px;
     left: 218px;
@@ -3505,7 +3505,7 @@
 
 .about .group {
     position: absolute;
-    width: 1635px;
+    width: 100%;
     height: 495px;
     top: 243px;
     left: 0;
@@ -3548,7 +3548,7 @@
 
 .about .overlap-group-wrapper {
     position: absolute;
-    width: 1257px;
+    width: 100%;
     height: 72px;
     top: 12px;
     left: 232px;
@@ -3556,7 +3556,7 @@
 
 .about .overlap-group {
     position: relative;
-    width: 1255px;
+    width: 100%;
     height: 72px;
     background-color: #4a557380;
     border-radius: 9px;
@@ -3834,7 +3834,7 @@
 
 .about .overlap-2 {
     position: absolute;
-    width: 1323px;
+    width: 100%;
     height: 1586px;
     top: 1531px;
     left: -19px;
@@ -3842,7 +3842,7 @@
 
 .about .rectangle-5 {
     position: absolute;
-    width: 1280px;
+    width: 100%;
     height: 793px;
     top: 793px;
     left: 19px;
@@ -3851,7 +3851,7 @@
 
 .about .rectangle-6 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 806px;
     top: 0;
     left: 10px;
@@ -3860,7 +3860,7 @@
 
 .about .rectangle-7 {
     position: absolute;
-    width: 1313px;
+    width: 100%;
     height: 88px;
     top: 728px;
     left: 0;
@@ -3873,7 +3873,7 @@
 
 .about .frame-wrapper {
     position: absolute;
-    width: 1416px;
+    width: 100%;
     height: 116px;
     top: 3117px;
     left: -62px;
@@ -3882,7 +3882,7 @@
 
 .about .frame-3 {
     display: flex;
-    width: 1186px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     position: relative;
