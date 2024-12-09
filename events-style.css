@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #4B5673;
+  }
+  
+  header {
+    background-color: rgba(75, 86, 115, 0.5);
+    padding: 1rem 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-right:10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('pexels-pavel-danilyuk-8112195 1.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: left;
+    /* padding: 5rem 2rem; */
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .events {
+    background-color: #4B5673;
+  }
+  
+  .events-item {
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #4B5673;
+    border-radius: 8px;
+  }
+  
+  .light-blue {
+    background: linear-gradient(#4B5673, #656C81 50%, #4B5673 95%);
+  }
+
+  .dark-blue {
+    background: #4B5673;
+  }
+  .events-item .text-content {
+    position: relative;
+    width: 400px; /* Increased width for wider text box */
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 2rem; /* Increased left margin */
+  }
+  
+  .events-item h3 {
+    height: 74px;
+    margin-top: 7rem; /* Adjusted margin to move text lower */
+    font-family: "Libre Caslon Display", serif;
+    font-size: 40px;
+    position: relative;
+    align-self: stretch;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  /*
+  .events-item a {
+  }
+  */
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4B5673;
+    font-size: 0.8rem;
+  }
