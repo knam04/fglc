@@ -1,11 +1,17 @@
+/* styles.css */
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    background-color: #4B5673;
-  }
+  font-family: "Libre Caslon Display", serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #4B5673;
+}
   
   header {
     background-color: rgba(75, 86, 115, 0.5);
@@ -60,60 +66,65 @@ body {
   }
   
   .events {
+    padding: 2rem;
+    text-align: left;
     background-color: #4B5673;
+    box-shadow: -30px 0 5px 10px #4B5673;
   }
   
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .vl {
+    border-left: 3px solid white;
+    margin-left: 0.5rem;
+    height: 200px;
+  }
+  
+  .events-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .events-item {
+    flex: 1;
+    padding: 1rem;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    border-radius: 8px;
+  }
+
   .light-blue {
     background: linear-gradient(#4B5673, #656C81 50%, #4B5673 95%);
+    /* width: 100vw; */
   }
 
   .dark-blue {
     background: #4B5673;
-  }
-  .events-item .text-content {
-    position: relative;
-    width: 400px; /* Increased width for wider text box */
-    font-family: "Libre Caslon Display", serif;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-left: 2rem; /* Increased left margin */
+
   }
   
-  .events-item h3 {
-    height: 74px;
-    margin-top: 7rem; /* Adjusted margin to move text lower */
-    font-family: "Libre Caslon Display", serif;
-    font-size: 40px;
-    position: relative;
-    align-self: stretch;
-    font-weight: 400;
-    color: #ffffff;
-    letter-spacing: 0;
-    line-height: normal;
+  .instagram {
+    padding: 3rem;
   }
-  
-  /*
-  .events-item a {
-  }
-  */
-  .events-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
   .instagram-container {
-    display: flex;
+    display: grid;
     justify-content: center;
-    gap: 1rem;
     margin-top: 2rem;
     margin-left: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
 }
 
 .instagram-media {
+    position:relative;
+    /* padding: 10px; */
     max-width: 300px !important;
     width: 100% !important;
 }

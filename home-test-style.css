@@ -1,7 +1,13 @@
 /* styles.css */
 
-body {
-    font-family: Arial, sans-serif;
+  .libre-caslon-display-regular {
+    font-family: "Libre Caslon Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Libre Caslon Display", serif;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -57,10 +63,11 @@ body {
   }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .hero p {
+    font-size: 1.2rem;
     text-align: right;
   }
   
@@ -72,7 +79,12 @@ body {
   }
   
   h2 {
+    font-size: 3rem;
     margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 
   .vl {
@@ -182,7 +194,7 @@ body {
   }
 
   .team-member p {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   

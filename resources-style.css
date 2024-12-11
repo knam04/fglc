@@ -1,12 +1,17 @@
 /* styles.css */
+.libre-caslon-display-regular {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    background-color: #4B5673;
-  }
+  font-family: "Libre Caslon Display", serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #4B5673;
+}
   
   header {
     background-color: rgba(75, 86, 115, 0.5);
@@ -57,7 +62,7 @@ body {
   }
   
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   
   .timeline {
@@ -68,6 +73,7 @@ body {
   }
   
   .timeline h2 {
+    font-size:2rem;
     margin-bottom: 2rem;
   }
   
@@ -111,6 +117,7 @@ body {
   }
   
   .resource-item h3 {
+    font-size: 2rem;
     margin-bottom: 0.5rem;
   }
   
@@ -123,6 +130,7 @@ body {
     background-size:cover;
     text-decoration: none;
     font-weight: bold;
+    font-size: 5rem;
     border: 2px solid #ffffff;
     border-radius: 5px;
     padding: 0.5rem 1rem;
